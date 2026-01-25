@@ -91,13 +91,25 @@
 
 
 
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
     
-  def __str__(self):
-    return f"{self.name} ({self.age})"
+#   def __str__(self):
+#     return f"{self.name} ({self.age})"
 
-p1 = Person("Emil", 36)
-print(p1)
+# p1 = Person("Emil", 36)
+# print(p1)
+
+
+
+
+class calculator:
+    def add(self, a, b):
+        return a+b
+    def multiply(self, a, b):
+        return a*b
+    
+calc = calculator()
+print(calc.add(3,7))
